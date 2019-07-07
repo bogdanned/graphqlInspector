@@ -6,6 +6,8 @@ const typeDefs = gql`
   type Query {
     "A simple type for getting started!"
     hello: String
+    name: String
+    isReal: Boolean
   }
 `;
 
@@ -13,6 +15,7 @@ const typeDefs = gql`
 const resolvers = {
   Query: {
     hello: () => 'world',
+    name: () => 'Miky Mouse'
   },
 };
 
