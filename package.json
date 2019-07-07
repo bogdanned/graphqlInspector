@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "insp": "graphql-inspector --help",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@graphql-inspector/cli": "^1.21.0",
+    "@graphql-inspector/core": "^1.21.0",
     "apollo-server": "^2.6.7",
     "expres": "0.0.5",
     "graphql": "^14.4.2",
