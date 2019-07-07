@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "insp": "graphql-inspector --help",
+    "intro": "graphql-inspector introspect ./schema.js",
+    "compare": "graphql-inspector diff schema.js schema.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

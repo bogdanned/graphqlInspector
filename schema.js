@@ -16,7 +16,7 @@ const resolvers = {
   },
 };
 
-export default makeExecutableSchema({
+module.exports =  makeExecutableSchema({
   typeDefs,
   resolvers,
 });
