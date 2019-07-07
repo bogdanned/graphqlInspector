@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "intro": "graphql-inspector introspect ./schema.js",
-    "compare": "graphql-inspector diff schema.js schema.js",
+    "compare": "graphql-inspector diff github:bogdanned/graphqlInspector#master:graphql.schema.json graphql.schema.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
